@@ -5,7 +5,7 @@ const projects = [
     title: "NBA Draft Optimizer",
     description: "Predictive tool using Monte Carlo simulation",
     img: "assets/nba.webp",
-    link: "https://github.com/arya/nba-optimizer",
+    link: "https://github.com/AryaSadeghi21/nba-draft-visualizer",
   },
   {
     title: "Syllabus Parser",
