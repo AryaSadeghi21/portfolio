@@ -11,7 +11,7 @@ const projects = [
     title: "Syllabus Parser",
     description: "Turns syllabus PDFs into calendar events",
     img: "assets/syllabus-parser.webp",
-    link: "https://github.com/arya/syllabus-parser",
+    link: "https://github.com/AryaSadeghi21/syllabus-parser",
   },
 ];
 

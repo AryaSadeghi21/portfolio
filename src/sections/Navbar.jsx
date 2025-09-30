@@ -18,21 +18,6 @@ function Navigation() {
           Projects
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#experience">
-          Experience
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#skills">
-          Skills
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact Me
-        </a>
-      </li>
     </ul>
   );
 }

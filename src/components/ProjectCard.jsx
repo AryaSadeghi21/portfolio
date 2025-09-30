@@ -31,7 +31,7 @@ export function ProjectCard({ title, description, img, link }) {
             src={img}
             height="1000"
             width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            className="max-h-96 w-auto object-contain rounded-xl mx-auto group-hover/card:shadow-xl"
             alt="thumbnail"
           />
         </CardItem>
