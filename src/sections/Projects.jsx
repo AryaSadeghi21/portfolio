@@ -37,7 +37,9 @@ const Projects = () => {
     <section id="projects" className="c-space section-spacing pt-0">
       <h2 className="text-heading">Projects</h2>
       <div className="max-w-6xl mx-auto">
-        <div className="grid sm:gap-1 lg:gap-100 md:grid-cols-1 lg:grid-cols-2">
+        <div className="grid gap-6 sm:gap-8 lg:gap-50 md:grid-cols-1 lg:grid-cols-2">
+
+
           {projects.map((p, i) => (
             <ProjectCard key={i} {...p} />
           ))}
