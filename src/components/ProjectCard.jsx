@@ -6,12 +6,12 @@ export function ProjectCard({ title, description, img, link, details }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <CardContainer className="inter-var">
+    <CardContainer className="relative">
       <CardBody
         className={`bg-gray-50 relative group/card  
           dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] 
           bg-gradient-to-b from-indigo to-storm dark:border-white/[0.2] border-black/[0.1] 
-          w-auto sm:w-[40rem] rounded-xl p-6 border 
+          w-full rounded-xl p-9 border
           transition-all duration-300 ease-in-out
           ${expanded ? "h-auto" : "h-auto"}`}
       >
